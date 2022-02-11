@@ -1,0 +1,42 @@
+[
+    {
+      "id":12343,
+      "nome": "Arthur Ferreira",
+      "profissao": "Dev Pl",
+      "descricao": "Sou casado e pai de três filhos, no tempo livre gosto e ler livros, ouvir música clássica e podcasts sobre política!",
+      "hobbies": "família,livros,música clássica,Podcast",
+      "image": "https://cdn-icons-png.flaticon.com/512/194/194935.png"
+    },
+    {
+      "id":18234,
+      "nome": "Ana Carolina",
+      "profissao": "Engenheira Civil",
+      "descricao": "Trabalho há 10 anos na área e amo poder criar coisas do zero, sou mãe de 2 cachorros e viciada em netflix!",
+      "hobbies": "Filmes,Series,Cachorros,Construir",
+      "image": "https://cdn-icons-png.flaticon.com/512/190/190698.png"
+    },
+    {
+      "id":1243,
+      "nome": "João Paulo",
+      "profissao": "Fotografo e Vídeo Maker",
+      "descricao": "Viciado em aventura e na natureza, sempre arrumo um tempo para viajar e me divertir com os meus amigos!",
+      "hobbies": "Aventura,Natureza,Viagem,Amigos",
+      "image": "https://cdn-icons-png.flaticon.com/512/190/190689.png"
+    },
+    {
+      "id":12346,
+      "nome": "Camila Rodrigues",
+      "profissao": "Pilota de Avião",
+      "descricao": "Meu apelido é passarinho desde criança, pois meu sonho era voar, meus hobbies são viajar, sair com os amigos, comer e dormir!",
+      "hobbies": "Passarinho,Viagem,Amigos,Comer,Dormir",
+      "image": "https://cdn-icons-png.flaticon.com/512/190/190678.png"
+    },
+    {
+      "id":12943,
+      "nome": "José Armando",
+      "profissao": "Chef",
+      "descricao": "Cozinho desde os 3 anos de idade, amo ir a praia, curtir minha família, beber vinho e assistir meu time do coração jogar!!",
+      "hobbies": "Cozinhar,Praia,Família,Vinho,Futebol",
+      "image": "https://cdn-icons-png.flaticon.com/512/190/190673.png"
+    }
+  ]
