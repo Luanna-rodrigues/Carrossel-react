@@ -30,12 +30,15 @@ body {
   margin: 50px;
   padding: 25px;
   width: 500px;
+  height: 700px;
   border-radius: 10px;
   display: none;
+  
 }
 
 .container .carrossel .active {
   display: block;
+  
 }
 
 .container .carrossel .item .image img {
@@ -44,6 +47,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+
+  animation-name: carrossel;
+  animation-delay: 1;
+  animation-duration: .8s;
+  animation-fill-mode: forwards;
 }
 
 
@@ -59,6 +67,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  animation-name: carrossel;
+  animation-delay: 1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
 }
 
 .container .carrossel .item .info span {
@@ -70,13 +84,16 @@ body {
 }
 
 .container .carrossel .item .info .nome {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.8rem;
+  font-weight: bolder;
   margin: 10px 0;
+  background-color: rgb(103, 212, 176);
+  border-radius: 20px;
 }
 
 .container .carrossel .item .info .profissao {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight:bold;
 }
 
 .container .carrossel .item .info .descricao {
@@ -89,7 +106,7 @@ body {
   font-size: 1rem;
   font-weight: bold;
   border-radius: 20px;
-  background-color: aquamarine;
+  background-color: rgb(103, 212, 176);
 }
 
 
@@ -122,4 +139,13 @@ body {
   width: 75px;
   height: 75px;
   padding: 8px;
+}
+
+@keyframes carrossel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

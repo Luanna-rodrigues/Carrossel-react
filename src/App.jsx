@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import CardSlide from "./components/CardSlide";
+import ButtonSlide from "./components/ButtonSlide"
 import "./App.css";
 
 const App = () => {
@@ -44,22 +45,16 @@ const App = () => {
       </div>
 
       <div className="buttons">
-        <button
-          disabled={selectedIndex <= 0}
-          onClick={() => handleNewRightClick(-1)}
-        >
-          <img src="static/images/setas.png" alt="Left" className="botao"></img>
-        </button>
-        <button
+        <ButtonSlide 
+          disabled={selectedIndex <= 0} 
+          onClick={() => handleNewRightClick(-1)} 
+          alt="Left"
+        />
+        <ButtonSlide 
           disabled={selectedIndex >= data.length - 1}
           onClick={() => handleNewRightClick(1)}
-        >
-          <img
-            src="static/images/setas.png"
-            alt="Right"
-            className="botao"
-          ></img>
-        </button>
+          alt="Rigth"
+        />
       </div>
     </div>
   );
