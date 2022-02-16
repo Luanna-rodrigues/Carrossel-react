@@ -1,3 +1,5 @@
+import "./CardSlide.css"
+
 const CardSlide = ({ item }) => {
   const { id, nome, profissao, descricao, hobbies, image, active } = item;
   return (

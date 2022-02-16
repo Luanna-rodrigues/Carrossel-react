@@ -1,3 +1,5 @@
+import "./ButtonSlide.css"
+
 const ButtonSlide = ({disabled, onClick, alt}) => {
     return (
       <button

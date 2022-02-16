@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
-import CardSlide from "./components/CardSlide";
-import ButtonSlide from "./components/ButtonSlide"
+import CardSlide from "./components/CardSlide/CardSlide";
+import ButtonSlide from "./components/ButtonSlide/ButtonSlide"
 import "./App.css";
 
 const App = () => {
