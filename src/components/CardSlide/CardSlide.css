@@ -8,7 +8,7 @@
   display: none;
 }
 
-.image img {
+.imagem img {
   width: 100%;
   object-fit: cover;
   margin-left: auto;

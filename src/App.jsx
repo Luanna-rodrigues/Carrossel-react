@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <div className="Logo">
+      <div className="logo">
         <img src="/static/images/logo.png" alt="Perfil Logo" className="img" />
       </div>
 
