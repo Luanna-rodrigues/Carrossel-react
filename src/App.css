@@ -16,15 +16,15 @@ body {
   max-width: 75vw;
 }
 
-.container .carrossel {
+.carrossel {
   display: flex;
   scroll-behavior: smooth;
 }
 
-.container .carrossel::-webkit-scrollbar {
+.carrossel::-webkit-scrollbar {
   display: none;
 }
 
-.container .carrossel .active {
+.carrossel .active {
   display: block;
 }
