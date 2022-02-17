@@ -1,16 +1,16 @@
 import "./CardSlide.css";
 
 const CardSlide = ({ item }) => {
-  const { id, nome, profissao, descricao, hobbies, image, active } = item;
+  const { id, name, profession, description, hobbies, image, active } = item;
   return (
     <div className={`item ${active ? "active" : ""}`} key={id}>
-      <div className="imagem">
-        <img src={image} alt={nome} />
+      <div className="image">
+        <img src={image} alt={name} />
       </div>
       <div className="info">
-        <span className="nome">{nome}</span>
-        <span className="profissao">{profissao}</span>
-        <span className="descricao">{descricao}</span>
+        <span className="name">{name}</span>
+        <span className="profession">{profession}</span>
+        <span className="description">{description}</span>
         {hobbies && (
           <article>
             {hobbies.split(",").map((hobbie) => (

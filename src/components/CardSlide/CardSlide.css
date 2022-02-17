@@ -8,7 +8,7 @@
   display: none;
 }
 
-.imagem img {
+.image img {
   width: 100%;
   object-fit: cover;
   margin-left: auto;
@@ -54,7 +54,7 @@
   column-gap: 8px;
 }
 
-.nome {
+.name {
   font-size: 1.8rem;
   font-weight: bolder;
   margin: 10px 0;
@@ -62,12 +62,12 @@
   border-radius: 20px;
 }
 
-.profissao {
+.profession {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.descricao {
+.description {
   margin-top: 5px;
   font-size: 1rem;
 }
