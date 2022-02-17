@@ -1,9 +1,9 @@
-import "./CardSlide.css"
+import "./CardSlide.css";
 
 const CardSlide = ({ item }) => {
   const { id, nome, profissao, descricao, hobbies, image, active } = item;
   return (
-    <div className={`item ${active ? 'active' : ''}`} key={id}>
+    <div className={`item ${active ? "active" : ""}`} key={id}>
       <div className="image">
         <img src={image} alt={nome} />
       </div>
@@ -21,7 +21,6 @@ const CardSlide = ({ item }) => {
           </article>
         )}
       </div>
-      
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import CardSlide from "./components/CardSlide/CardSlide";
-import ButtonSlide from "./components/ButtonSlide/ButtonSlide"
+import ButtonSlide from "./components/ButtonSlide/ButtonSlide";
 import "./App.css";
 
 const App = () => {
@@ -45,12 +45,12 @@ const App = () => {
       </div>
 
       <div className="buttons">
-        <ButtonSlide 
-          disabled={selectedIndex <= 0} 
-          onClick={() => handleNewRightClick(-1)} 
+        <ButtonSlide
+          disabled={selectedIndex <= 0}
+          onClick={() => handleNewRightClick(-1)}
           alt="Left"
         />
-        <ButtonSlide 
+        <ButtonSlide
           disabled={selectedIndex >= data.length - 1}
           onClick={() => handleNewRightClick(1)}
           alt="Rigth"

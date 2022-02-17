@@ -1,24 +1,24 @@
 .buttons {
-    text-align: center;
-  }
-  
-  .buttons button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    transition: all 0.5s;
-  }
-  
- .buttons button:first-child img {
-    transform: rotate(180deg);
-  }
-  
- .buttons button:disabled {
-    display: none;
-  }
-  
-  .botao {
-    width: 75px;
-    height: 75px;
-    padding: 8px;
-  }
+  text-align: center;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.buttons button:first-child img {
+  transform: rotate(180deg);
+}
+
+.buttons button:disabled {
+  display: none;
+}
+
+.botao {
+  width: 75px;
+  height: 75px;
+  padding: 8px;
+}
